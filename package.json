@@ -22,8 +22,8 @@
     "url": "https://github.com/spartan-holochain-counsel/entities-js/"
   },
   "dependencies": {
-    "@spartan-hc/holo-hash": "^0.6.1",
-    "@whi/into-struct": "^0.2.1"
+    "@spartan-hc/holo-hash": "^0.7.0",
+    "@whi/into-struct": "^0.3.0"
   },
   "devDependencies": {
     "@whi/weblogger": "^0.4.0",
