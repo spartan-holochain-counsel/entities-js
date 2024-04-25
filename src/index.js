@@ -1,4 +1,5 @@
 import {
+    AnyDhtHash,
     ActionHash, EntryHash,
 }					from '@spartan-hc/holo-hash';
 import {
@@ -60,7 +61,7 @@ export class Entity {
 	if ( typeof ctx.type !== "string"  )
 	    throw new TypeError(`Entity expects [type] to be a string; not type '${typeof ctx.type}'`);
 
-	this.#id			= new ActionHash( ctx.id );
+	this.#id			= new AnyDhtHash( ctx.id );
 	this.#action			= new ActionHash( ctx.action );
 	this.#address			= new EntryHash( ctx.address );
 	this.#type			= ctx.type;
