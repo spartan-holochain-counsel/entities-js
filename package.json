@@ -1,0 +1,35 @@
+{
+  "name": "@spartan-hc/entities",
+  "version": "0.1.0",
+  "description": "A library for managing Entity contexts for Holochain CRUD patterns",
+  "type": "module",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "browser": "dist/entities.js",
+  "files": [
+    "README.md",
+    "src/index.js",
+    "src/utils.js",
+    "dist/**"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Brisebois <matthew.brisebois@holo.host>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spartan-holochain-counsel/entities-js/"
+  },
+  "dependencies": {
+    "@spartan-hc/holo-hash": "^0.6.1",
+    "@whi/into-struct": "^0.2.1"
+  },
+  "devDependencies": {
+    "@whi/weblogger": "^0.4.0",
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
